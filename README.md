@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ALX Listing App – Deployed Version
 
-## Getting Started
+This project is a deployment-ready version of the ALX Listing App built with **Next.js**.  
+It demonstrates property listings, filtering, and booking functionality, and is configured for **production deployment on Vercel**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Live URL:**  
+https://alx-listing-app-<YOUR_STUDENT_ID>.vercel.app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**GitHub Repository:**  
+https://github.com/<your-username>/alx-listing-app-deployed
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📌 Features
 
-To learn more about Next.js, take a look at the following resources:
+- Property listings display
+- Filter pills for property categories
+- Booking page
+- Responsive UI
+- Environment-based API configuration
+- Production-ready build
+- Deployed on Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Tech Stack
 
-## Deploy on Vercel
+- **Framework:** Next.js (Pages Router)
+- **Language:** TypeScript
+- **Styling:** CSS / Tailwind CSS (if applicable)
+- **HTTP Client:** Axios
+- **Deployment:** Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📁 Project Structure
+
+```text
+alx-listing-app-deployed/
+├── components/
+│   ├── Pill.tsx
+│   └── PropertyCard.tsx
+├── constants/
+├── interfaces/
+├── pages/
+│   ├── index.tsx
+│   ├── booking.tsx
+│   └── _app.tsx
+├── public/
+├── .env.local.example
+├── .gitignore
+├── next.config.js
+├── package.json
+└── README.md
+
+📄 License
+
+This project is for educational purposes as part of the ALX Software Engineering program.
+
+👤 Author
+
+Rebi Edward Akpa
+ALX Software Engineering Program

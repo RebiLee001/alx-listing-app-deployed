@@ -23,5 +23,3 @@ image: string;
 discount: string; // percent as string or empty
 }
 
-
-export type { PropertyProps };
